@@ -1,0 +1,4 @@
+CD eNV
+Get-Item -Path Env
+Get-Item -Path Env:* | Get-Member
+$env:PSModulePath
